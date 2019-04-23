@@ -3,7 +3,7 @@ require 'pry'
 def square_array(array)
   squared_array = []
   array.each do |num|
-  num**2 
-    return squared_array.push(square)
+  squared_array.push(num**2)
   end
+  return squared_array
 end
